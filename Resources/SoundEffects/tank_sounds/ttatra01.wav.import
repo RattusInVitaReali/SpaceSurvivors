@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ttatra01.wav-934d8c2e9d58c118cdcee745cb263826.sample"
+
+[deps]
+
+source_file="res://Resources/SoundEffects/tank_sounds/ttatra01.wav"
+dest_files=[ "res://.import/ttatra01.wav-934d8c2e9d58c118cdcee745cb263826.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ability_locked.wav-da5d9c0509f5b8ede5239a64823c530f.sample"
+
+[deps]
+
+source_file="res://Resources/SoundEffects/ability_locked.wav"
+dest_files=[ "res://.import/ability_locked.wav-da5d9c0509f5b8ede5239a64823c530f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Shortwire - Reconfig.mp3-4f517f907ef5e9a371ea74c7a8d9c9d8.mp3str"
+
+[deps]
+
+source_file="res://Resources/Shortwire - Reconfig.mp3"
+dest_files=[ "res://.import/Shortwire - Reconfig.mp3-4f517f907ef5e9a371ea74c7a8d9c9d8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

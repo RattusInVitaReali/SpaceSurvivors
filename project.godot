@@ -1,0 +1,97 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Enemy",
+"class": "Boss",
+"language": "GDScript",
+"path": "res://Boss.gd"
+}, {
+"base": "Entity",
+"class": "Enemy",
+"language": "GDScript",
+"path": "res://Entity/Enemy/Enemy.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "Entity",
+"language": "GDScript",
+"path": "res://Entity/Entity.gd"
+}, {
+"base": "KinematicBody2D",
+"class": "EntityName",
+"language": "GDScript",
+"path": "res://EntityName/EntityName.gd"
+}, {
+"base": "Node2D",
+"class": "Main",
+"language": "GDScript",
+"path": "res://Main.gd"
+}, {
+"base": "Entity",
+"class": "Player",
+"language": "GDScript",
+"path": "res://Entity/Player/Player.gd"
+}, {
+"base": "Sprite",
+"class": "Projectile",
+"language": "GDScript",
+"path": "res://Weapons/Projectile.gd"
+}, {
+"base": "Node2D",
+"class": "Spawner",
+"language": "GDScript",
+"path": "res://Spawner/Spawner.gd"
+}, {
+"base": "Node2D",
+"class": "Typer",
+"language": "GDScript",
+"path": "res://Typer/Typer.gd"
+} ]
+_global_script_class_icons={
+"Boss": "",
+"Enemy": "",
+"Entity": "",
+"EntityName": "",
+"Main": "",
+"Player": "",
+"Projectile": "",
+"Spawner": "",
+"Typer": ""
+}
+
+[application]
+
+config/name="SpaceSurvivors"
+run/main_scene="res://Main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Autoload="*res://Autoload.gd"
+
+[display]
+
+window/size/width=1200
+window/size/height=800
+window/size/resizable=false
+window/size/fullscreen=true
+window/stretch/mode="2d"
+
+[global]
+
+size=false
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

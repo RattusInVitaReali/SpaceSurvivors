@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/pdeath.wav-0923c50b57acf2d76d175b4e98603518.sample"
+
+[deps]
+
+source_file="res://Resources/SoundEffects/pdeath.wav"
+dest_files=[ "res://.import/pdeath.wav-0923c50b57acf2d76d175b4e98603518.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

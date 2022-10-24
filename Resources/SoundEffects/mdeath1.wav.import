@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/mdeath1.wav-02e1966443a02154f0c5c963d7734803.sample"
+
+[deps]
+
+source_file="res://Resources/SoundEffects/mdeath1.wav"
+dest_files=[ "res://.import/mdeath1.wav-02e1966443a02154f0c5c963d7734803.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

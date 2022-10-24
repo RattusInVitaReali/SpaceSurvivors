@@ -1,0 +1,39 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Entity/Enemy/Enemy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Resources/Monster3/cudoviste3.1.png" type="Texture" id=2]
+[ext_resource path="res://Resources/Monster3/cudoviste3.2.png" type="Texture" id=3]
+[ext_resource path="res://Resources/Monster3/cudoviste3.3.png" type="Texture" id=4]
+[ext_resource path="res://Resources/MediumShadow.png" type="Texture" id=5]
+
+[sub_resource type="CircleShape2D" id=2]
+resource_local_to_scene = true
+radius = 15.0
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="Monster3" instance=ExtResource( 1 )]
+bonus_letters = 1
+
+[node name="CollisionShape2D" parent="." index="0"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="." index="1"]
+position = Vector2( 0, 35 )
+scale = Vector2( 3.5, 1 )
+texture = ExtResource( 5 )
+
+[node name="Shadow" parent="." index="2"]
+position = Vector2( 0, 35 )
+scale = Vector2( 3.5, 1 )
+
+[node name="AnimatedSprite" parent="." index="6"]
+frames = SubResource( 1 )
+frame = 2
+playing = true
