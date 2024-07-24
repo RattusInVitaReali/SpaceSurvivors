@@ -13,8 +13,8 @@ const CHARS = "abcdefghijklmnopqrstuvwxyz"
 const RANGE_LOW = 1000
 const RANGE_HIGH = 1500
 
-var min_length = 2
-var max_length = 5
+var min_length = 1
+var max_length = 3
 
 var difficulty_counter = 0
 

@@ -85,6 +85,7 @@ animations = [ {
 
 [node name="Enemy" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
+bonus_letters = 0
 
 [node name="CollisionShape2D" parent="." index="0"]
 shape = SubResource( 2 )

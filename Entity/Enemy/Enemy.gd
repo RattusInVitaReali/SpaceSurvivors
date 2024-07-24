@@ -56,6 +56,8 @@ func check_name(word):
 
 const CHARS = "abcdefghijklmnopqrstuvwxyz"
 func nuke_me():
+	if entity_name_instance == null:
+		return
 	entity_name = CHARS[Autoload.RANDOM.randi() % 26]
 	entity_name_instance.change_name(self)
 
